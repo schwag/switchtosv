@@ -1,0 +1,29 @@
+/* Menu Styles */
+
+/* Home */
+body.home-page .home, body.your-specs-page .your-specs, body.services-page .services, body.about-page .about, body.why-afusa-page .why-afusa, body.contact-us-page .contact-us
+{color: #000 !important; background-color: #ddd ;}
+
+.home:hover, .home:focus, .home:active, .your-specs:hover, .your-specs:focus, .your-specs:active, .services:hover, .services:focus, .services:active, .about:hover, .about:focus, .about:active, .why-afusa:hover, .why-afusa:focus, .why-afusa:active, .contact-us:hover, .contact-us:focus, .contact-us:active {background-color:#fff !important; color: #292929 !important;}
+
+/* your needs dropdown */
+.your-needs:hover, .your-needs:focus, .your-needs:active {background-color:#fff !important; color: #292929 !important;}
+
+/*parent style*/
+body.corrosion-resistance-page .your-needs, body.architectural-page .your-needs, body.abrasion-resistance-page .your-needs, body.electrical-resistance-coatings-page .your-needs, body.medical-lab-and-high-traffic-page .your-needs, body.aesthetic-page .your-needs, body.military-and-carc-page .your-needs, body.custom-coatings-page .your-needs {color: #000 !important; background-color: #ddd ;}
+
+
+/*child*/
+body.corrosion-resistance-page .corrosion-resistance, body.architectural-page .architectural, body.abrasion-resistance-page .abrasion-resistance, body.electrical-resistance-coatings-page .electrical-resistance-coatings, body.medical-lab-and-high-traffic-page .medical-lab-and-high-traffic, body.aesthetic-page .aesthetic, body.military-and-carc-page .military-and-carc, body.custom-coatings-page .custom-coatings {background-color: #555; color: #ffffff;}
+
+
+/* resources dropdown */
+
+/*parent style*/
+body.frequently-asked-questions-page .resources, body.learning-page .resources, body.videos-page .resources {color: #000 !important; background-color: #ddd ;}
+
+.resources:hover, .resources:focus, .resources:active {background-color:#fff !important; color: #292929 !important;}
+
+/*child*/
+
+body.frequently-asked-questions-page .frequently-asked-questions, body.learning-page .learning, body.videos-page .videos {background-color: #555; color: #ffffff;}
