@@ -114,11 +114,11 @@ h3{
 	float: right !important;
 }
 .navbar{
-	background-color: #292929;
-	margin-top: 100px;
+	background-color: #405d59;
+	margin-top: 53px;
 }
 .navbar-inverse {
-	border-color: #FFFFFF;
+	border: none;
 }
 .navbar-inverse .navbar-nav>li>a:hover {
 	color: #292929;
@@ -141,12 +141,13 @@ h3{
 	color: white;
 	font-weight: bold;
 	border-color: white;
+	background-color: #00a651;
 }
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
 	padding: 10px;
 }
 .navbar-inverse .navbar-toggle:hover {
-	background-color: #183659;
+	background-color: #00a651;
 	color: #ffffff;
 }
 .navbar-inverse .navbar-toggle .glyphicon {
@@ -204,8 +205,8 @@ h3{
 }
 .headerBackground{
 	padding: 15px;
-	margin-top: 55px;
-	background-color: #183659;
+	margin-top: 9px;
+	background-color: #ffffff;
 }
 .architecturalBackground{
 	background-image: url("../img/architectural_background.jpg");
@@ -315,8 +316,19 @@ h3{
 .learnMore{
 	padding: 0px 10px 10px 10px;
 }
+.alleghenyTop{
+	  float: right;
+	  font-size: 1.1em;
+	  margin-right: 20px;
+	  color: #fff;
+	  margin-top: 15px;
+	  font-family: Arial,"Helvetica Neue",sans-serif;
+	  font-size: 1.0em;
+	  font-weight: bold;
+}
 .logoBackground{
-	background-color: #ffffff;
+	background-color: #00a651;
+	border-bottom: 8px solid #00aeef;
 }
 .logoBackground img{
 	margin: 6px 0px 6px 0px;
@@ -1134,7 +1146,7 @@ color: #292929;
 		height: 50px;
 	}
 	.navbar{
-		margin-top: 62px;
+		margin-top: 53px;
 	}
 
 }

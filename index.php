@@ -20,44 +20,5 @@
                 </div>
     </section>
 
-    <section class="bodyBlue">
-                <div class="container">
-                     <div class="row">
-                        <div>
-                            <div class="col-md-12">
-                                <div>
-                                  <div class="row">
-                                    <div class="col-sm-4 col-md-4">
-                                      <div class="thumbnail">
-                                        <img src="img/your_needs_tile.jpg" alt"" class="img-responsive">
-                                        <div class="caption producthomeTitle">
-                                          <p><a href="http://www.afusa.net/your-needs.php" class="btn btn-block" role="button">YOUR NEEDS</a></p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="col-sm-4 col-md-4">
-                                      <div class="thumbnail">
-                                        <img src="img/your_specs_tile.jpg" alt"" class="img-responsive">
-                                        <div class="caption producthomeTitle">
-                                          <p><a href="http://www.afusa.net/your-specs.php" class="btn btn-block" role="button">YOUR SPECS</a></p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="col-sm-4 col-md-4">
-                                      <div class="thumbnail">
-                                        <img src="img/your_services_tile.jpg" alt"" class="img-responsive">
-                                        <div class="caption producthomeTitle">
-                                          <p><a href="http://www.afusa.net/services.php" class="btn btn-block" role="button">SERVICES</a></p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-    </section>
 
-<?php include "php/footer.php";?>
 
