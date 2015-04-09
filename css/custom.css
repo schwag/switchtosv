@@ -1,18 +1,20 @@
 /* this is a custom css stylesheet*/
 
 body{
-	font-family: Century Gothic, sans-serif;
-	/*margin-top: 158px;*/
+	font-family: sans-serif;
 	margin-top: 106px;
 }
 .mainHeading{
-	color: #ffffff;
-	font-weight: bold;
-	/*text-align: center;*/
+	color: #00A651;
 	margin-top: 10px;
 	font-style: italic;
 	font-size: 25px;
-	text-shadow: 1px 1px 1px #4C4C4C;
+}
+.mainHeadingTwo{
+	color: #00aeef;
+	margin-top: 10px;
+	font-style: italic;
+	font-size: 25px;	
 }
 .mainbodyHeading{
 	color: #515151;
@@ -21,6 +23,9 @@ body{
 	margin-top: 10px;
 	font-style: italic;
 	font-size: 28px;
+}
+.homeLogo{
+	margin-bottom: 15px;
 }
 .needsbodyHeading{
 	color: #FFFFFF;
@@ -63,10 +68,27 @@ h2{
 	padding-bottom: 7px;
 }
 h3{
-	color: #336666;
-	border-bottom: 1px solid #336666;
-	margin-bottom: 24px;
-	padding-bottom: 7px;
+	color: red;
+}
+.meetPCP ul{
+	float: right;
+}
+.meetPCP ul li{
+	color: #ffffff;
+	background-color: #00aeef;
+	font-size: 14px;
+	padding: 6px;
+	margin-bottom: 6px;
+}
+.meetPCP h2{
+	color: #ffffff;
+	background-color: #00aeef;
+	float: right;
+	font-size: 14px;
+	padding: 6px;
+}
+.meetPCP{
+	margin-top: 255px;
 }
 .videoBackground{
 	display: block;
@@ -172,76 +194,10 @@ h3{
 .glyphicon-home,.glyphicon-book,.glyphicon-tags,.glyphicon-user,.glyphicon-th-large,.glyphicon-earphone{
 	padding-right: 5px;
 }
-.homeBackground{
-	/*background-color: #0055A3;*/
-	background-image: url("../img/building_background.png");
-	padding: 48px;
-	margin-top: 47px;
-}
-.yourneedsBackground{
-	background-image: url("../img/your_needs_background.png");
-	padding: 48px;
-	margin-top: 47px;	
-}
-.yourspecsBackground{
-	background-image: url("../img/specs_background.png");
-	padding: 48px;
-	margin-top: 47px;	
-}
-.servicesBackground{
-	background-image: url("../img/services_background.png");
-	padding: 48px;
-	margin-top: 47px;
-}
-.contactBackground{
-	background-image: url("../img/contact_background.png");
-	padding: 48px;
-	margin-top: 47px;	
-}
-.resourcesBackground{
-	background-image: url("../img/resources_background.png");
-	padding: 48px;
-	margin-top: 47px;	
-}
 .headerBackground{
-	padding: 15px;
-	margin-top: 9px;
 	background-color: #ffffff;
-}
-.architecturalBackground{
-	background-image: url("../img/architectural_background.jpg");
-	padding: 48px;
-	margin-top: 47px;
-}
-.electricalBackground{
-	background-image: url("../img/electrical_background.jpg");
-	padding: 48px;
-	margin-top: 47px;	
-}
-.medicalBackground{
-	background-image: url("../img/.jpg");
-	padding: 48px;
-	margin-top: 47px;	
-}
-.aestheticBackground{
-	background-image: url("../img/aesthetic_background.jpg");
-	padding: 48px;
-	margin-top: 47px;		
-}
-.militaryBackground{
-	background-image: url("../img/military_background.jpg");
-	padding: 48px;
-	margin-top: 47px;	
-}
-.consumerBackground{
-	background-image: url("../img/consumer_coatings_background.jpg");
-	padding: 48px;
-	margin-top: 47px;	
-}
-.abrasionBackground{
-	background-image: url("../img/abrasion_background.jpg");
-	padding: 48px;
-	margin-top: 47px;	
+	box-shadow: 0px 3px 10px #888888;
+	margin-bottom: 1px;
 }
 .needsheaderImage{
 	border: 1px solid #000000;
@@ -469,8 +425,7 @@ h3{
 .btn-primary{
 	color: #ffffff;
 	font-size: 14px;
-	background-color: #C08313;
-	font-weight: bold;
+	background-color: #00aeef;
 	border: none;
 }
 .btn-block.needsButton{
@@ -494,8 +449,8 @@ h3{
 	background-color: #C08313;
 }
 .btn-primary:visited {
-	color: #ffffff;
-	background-color: #C08313;
+	color: #FFFFFF;
+  	background-color: #00AEEF;
 }
 .footerBottom{
 	background-color: #292929;
@@ -933,26 +888,29 @@ color: #292929;
 .galleryHover a:hover h4 {
     opacity:0.8;
 }
+/*.bubbleImg{
+	background-color: #183659;
+	margin-bottom: 15px;
+	margin-top: 18px;
+	border-radius: 5px;
+	border: 1px solid #ffffff;
+}*/
 .bubblePar{
-	background-color: #183659;
-	padding: 7px 20px 0px 20px;
-	margin-bottom: 15px;
-	margin-top: 18px;
-	border-radius: 5px;
-	border: 1px solid #ffffff;
+  margin-top: 75px;
 }
-.bubbleImg{
-	background-color: #183659;
-	margin-bottom: 15px;
-	margin-top: 18px;
-	border-radius: 5px;
-	border: 1px solid #ffffff;
+.homePicRight{
+	background: url(../img/sv_main_slide.jpg) no-repeat;
+	height: 468px;
+}
+.homePicLeft{
+	background: url(../img/thomas_slide.jpg) no-repeat;
+	height: 468px;
 }
 .bubbleImg img{
 	border-radius: 5px;
 }
 .bubblePar p{
-	color: #ffffff;
+	color: #222222;
 	/*text-align: center;*/
 	font-size: 16px;
 	margin: 0px;
@@ -971,6 +929,9 @@ color: #292929;
 /*-----------------------------------Media Queries---------------------------------------*/
 
 @media (max-width: 767px) {
+	.bubblePar {
+	  margin-top: 25px;
+	}
 	.bodyBlue{
 		padding: 10px 0px 10px 0px;
 	}
@@ -1005,8 +966,8 @@ color: #292929;
 		margin-top: 13px;
 	}
 	.headerBackground{
-		padding: 10px;	
-		margin-top: 13px;
+		/*padding: 10px;	
+		margin-top: 13px;*/
 	}	
 	.medicalBackground{
 		padding: 10px;	
