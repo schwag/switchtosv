@@ -39,6 +39,10 @@ body{
 	border-radius: 4px;
 	padding: 1px 5px 1px 5px;
 }
+.docScroll {
+  	margin: 1.5rem auto 0;
+  	float: none;
+}
 .contactSidebarHeading{
 	color: #515151;
 	font-weight: bold;
@@ -896,15 +900,19 @@ color: #292929;
 	border: 1px solid #ffffff;
 }*/
 .bubblePar{
-  margin-top: 75px;
+  margin-top: 55px;
 }
 .homePicRight{
 	background: url(../img/sv_main_slide.jpg) no-repeat;
 	height: 468px;
 }
-.homePicLeft{
+.homeDocLeft{
 	background: url(../img/thomas_slide.jpg) no-repeat;
 	height: 468px;
+}
+.homeDocRight{
+	background: url(../img/chris_slide.jpg) no-repeat;
+	height: 468px;	
 }
 .bubbleImg img{
 	border-radius: 5px;
