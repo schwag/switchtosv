@@ -26,10 +26,10 @@
                         </div>
                         <div class="collapse navbar-collapse" id="collapse">
                             <ul class="nav navbar-nav">
-                                <li><a class="home" href="<?php $baseUrl ; ?>/">Home</a></li>
-                                <li><a class="your-specs" href="<?php $baseUrl ; ?>/your-specs.php">About us</a></li>
-                                <li><a class="services" href="<?php $baseUrl ; ?>/services.php">Choose a Primary Care Physician</a></li>
-                                <li><a class="about" href="<?php $baseUrl ; ?>/about.php">Saint Vincent Homepage</a></li>
+                                <li><a class="home" href="http://localhost/switchtosv/">Home</a></li>
+                                <li><a class="about" href="http://localhost/switchtosv/about.php">About us</a></li>
+                                <li><a class="services" href="http://localhost/switchtosv/pcp.php">Choose a Primary Care Physician</a></li>
+                                <li><a class="about" href="https://www.ahn.org/locations/saint-vincent-hospital" target="_blank">Saint Vincent Homepage</a></li>
                             </ul> 
                         </div>
                      </nav> 
