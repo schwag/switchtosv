@@ -39,7 +39,30 @@
                                 <div>
                                     <img src="img/tomvid.png" style="margin-bottom: 10px;" class= "img-responsive">
 
-                                    <p><a href="#" class="btn btn-primary" role="button">View Tom's story</a></p>
+
+                                      <!-- Button trigger modal -->
+                                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalOne">
+                                        View Tom's story
+                                      </button>
+
+                                      <!-- Modal -->
+                                      <div class="modal fade" id="modalOne" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                          <div class="modal-content">
+                                            <div class="modal-header">
+                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                              <h4 class="modal-title" id="myModalLabel">Dr. Thomas Slokan</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                              <iframe src="https://player.vimeo.com/video/49784522?title=0&byline=0&portrait=0" width="100%" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                            </div>
+                                            <div class="modal-footer">
+                                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+
                                 </div>
                                </div>
                             </div>
@@ -56,7 +79,30 @@
                                 <p>Growing up in a household with five siblings, Chris Serafini, DO, always knew family would play an important role in his life. Born and raised in Erie, Dr. Serafini completed his residency at Saint Vincent. Soon after, he joined Drs. Joseph Deimel and Allison Snyder at Millcreek Family Practice, where he continues to put his patients and their families first.</p>
                                 <div>
                                     <img src="img/chrisvid.jpg" style="margin-bottom: 10px;" class= "img-responsive">
-                                    <p><a href="#" class="btn btn-primary" role="button">View Chris's story</a></p>
+
+                                      <!-- Button trigger modal -->
+                                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalTwo">
+                                        View Chris's story
+                                      </button>
+
+                                      <!-- Modal -->
+                                      <div class="modal fade" id="modalTwo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                          <div class="modal-content">
+                                            <div class="modal-header">
+                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                              <h4 class="modal-title" id="myModalLabel">Dr. Chris Serafini</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                              <iframe src="https://player.vimeo.com/video/48303963?title=0&byline=0&portrait=0" width="100%" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                            </div>
+                                            <div class="modal-footer">
+                                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+
                                 </div>
                                </div>
                             </div>
@@ -66,5 +112,5 @@
                 </div>
     </section>
 
-
+<?php include "php/footer.php";?>
 

@@ -2,9 +2,11 @@
                 <section class="logoBackground navbar-fixed-top">
                     <div class="container logoSection">
                         <header class="row">
-                            <div class="col-lg-12 col-sm-12 headercontactInfo">
-                                <p class="alleghenyTop">Allegheny Health Network</p>
-                                </ul>
+                            <div class="col-lg-6 col-sm-6 headercontactInfo">
+                                <p class="switchTop">SwitchToSV.com</p>                               
+                            </div>
+                            <div class="col-lg-6 col-sm-6 headercontactInfo">
+                                <p class="alleghenyTop">Allegheny Health Network</p>                               
                             </div>
                         </header>
                     </div>
