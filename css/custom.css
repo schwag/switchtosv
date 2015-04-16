@@ -2,7 +2,7 @@
 
 body{
 	font-family: sans-serif;
-	margin-top: 106px;
+	margin-top: 103px;
 }
 .mainHeading{
 	color: #00A651;
@@ -15,6 +15,12 @@ body{
 	margin-top: 10px;
 	font-style: italic;
 	font-size: 25px;	
+}
+.mainHeadingThree{
+	color: #405D59;
+	margin-top: 15px;
+	font-style: italic;
+	font-size: 21px;	
 }
 .mainbodyHeading{
 	color: #515151;
@@ -65,10 +71,18 @@ h3{
 	float: right !important;
 }
 .mapSelection{
-	background-color: blue;
+	background-color: rgb(226, 226, 226);
+	height: 200px;
+	margin-top: 20px;
 }
 .graySidebar{
-	background-color: gray;	
+	background-color: #CCCCCC;
+	margin-top: 20px;
+	float: right;
+}
+.dropdown {
+	position: relative;
+	margin-bottom: 15px;
 }
 .navbar{
 	background-color: #405d59;
@@ -91,7 +105,6 @@ h3{
 }
 .navbar-inverse .navbar-nav>li>a{
 	color: #ffffff;
-	border-radius: 4px;
 	margin: 1px;
 }
 .navbar-inverse .navbar-toggle {
@@ -101,7 +114,7 @@ h3{
 	background-color: #00a651;
 }
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-	padding: 10px;
+	border-top: 8px solid #00aeef;
 }
 .navbar-inverse .navbar-toggle:hover {
 	background-color: #00a651;
@@ -152,17 +165,17 @@ h3{
 	float: left;
  	font-size: 8.1em;
   	color: #fff;
-  	margin-top: 1px;
+  	margin-top: 12px;
   	font-family: Arial,"Helvetica Neue",sans-serif;
   	font-size: 22px;
   	font-style: italic;
 }
 .logoBackground{
 	background-color: #00a651;
-	border-bottom: 8px solid #00aeef;
 }
 .headercontactInfo a{
 	color: #ffffff;
+	text-decoration: none;
 }
 .list-group-item {
 	position: relative;
@@ -317,7 +330,6 @@ color: #292929;
   	font-size: 25px;
 }
 .modal-content {
-	padding: 14px 6px 6px 6px;
 	position: relative;
 	background-color: #fff;
 	-webkit-background-clip: padding-box;
@@ -357,7 +369,13 @@ color: #292929;
 	background-color: #ffffff;
 }
 .bubblePar{
-  margin-top: 55px;
+  	margin-top: 55px;
+}
+.pcpSidebar p{
+  	margin-top: 15px;
+}
+.pcpSidebar ol li{
+	margin-bottom: 6px;
 }
 .homePicRight{
 	background: url(../img/sv_main_slide.jpg) no-repeat;
@@ -381,16 +399,25 @@ color: #292929;
 	margin: 0px;
 	margin-bottom: 22px;
 }
+.aboutPic img[src="img/about.jpg"] {
+    display: none;
+    visibility: hidden;
+}
+
 
 /*-----------------------------------Media Queries---------------------------------------*/
 
 @media (max-width: 767px) {
 	.bubblePar {
-	  margin-top: 25px;
+	  	margin-top: 25px;
 	}
 	.homeBackground{
 		padding: 10px;
 		margin-top: 13px;
+	}
+	.graySidebar {
+		margin-top: 15px;
+	  	padding: 15px;
 	}
 	.headercontactInfo{
 		/*display: none;*/
@@ -448,6 +475,7 @@ color: #292929;
 	}
 	.btn-primary{
 		font-size: 11px;
+		margin-bottom: 20px;
 	}
 	.logoSection img{
 		width: 50px;
@@ -455,6 +483,50 @@ color: #292929;
 	}
 	.navbar{
 		margin-top: 53px;
+		border-top: 8px solid #00aeef;
+	}
+	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  		border-top: 1px solid black;
+	}
+	.meetPCP {
+  		margin-top: 0px; 
+	}
+	.homePicRight{
+		background: url(../img/sv_main_slide_small.jpg) no-repeat;
+		height: 430px;
+	}
+	.homeDocLeft {
+		background: url(../img/thomas_slide_small.jpg) no-repeat;
+		height: 430px;
+		display: none;
+	}
+	.homeDocRight {
+		background: url(../img/chris_slide_small.jpg) no-repeat;
+		height: 430px;
+		display: none;
+	}
+	.homeLogo {
+  		margin-bottom: 15px;
+  		margin-top: 10px;
+	}
+	.meetPCP ul {
+  		float: right;
+  		list-style: none;
+  		margin-top: 20px;
+	}
+	.aboutBackground {
+		background: none;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height: 850px;
+	}
+	.aboutPic img[src="img/about.jpg"] {
+    	display: block;
+    	visibility: visible;
+    	width: 100%;
+    	margin-top: 30px;
 	}
 
 }
@@ -470,4 +542,39 @@ color: #292929;
 			padding-bottom: 10px; 
 	}
 }
+
+
+@media (max-width: 991px){
+	.meetPCP ul {
+  		float: right;
+  		list-style: none;
+  		margin-top: 20px;
+	}
+	.meetPCP {
+  		margin-top: 0px;
+	}
+	.btn-primary{
+		font-size: 11px;
+		margin-bottom: 20px;
+	}
+	.homeDocLeft {
+		background: url(../img/thomas_slide_small.jpg) no-repeat;
+		height: 430px;
+		display: none;
+	}
+	.homeDocRight {
+		background: url(../img/chris_slide_small.jpg) no-repeat;
+		height: 430px;
+		display: none;
+	}
+	.videoSection img{
+		width: 100%;
+	}
+	.graySidebar {
+		margin-top: 15px;
+	  	padding: 15px;
+	}
+}
+
+
 

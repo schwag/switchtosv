@@ -36,8 +36,8 @@
                                <div class="bubblePar">
                                 <h1 class="mainHeading">Dr. Thomas Slokan</h1>
                                 <p>Several years ago, Thomas Slokan, DO, was a structural engineer living in our nation’s capital. One day, he walked away and never looked back. According to Dr. Slokan, he left his job to attend medical school—and make a real difference in people’s lives. Dr. Slokan’s patients at Union City Family Practice couldn’t be happier with his decision.</p>
-                                <div>
-                                    <img src="img/tomvid.png" style="margin-bottom: 10px;" class= "img-responsive">
+                                <div class="videoSection">
+                                    <img src="img/tomvid.png" style="margin-bottom: 10px;" class= "aboutIMG img-responsive">
 
 
                                       <!-- Button trigger modal -->
@@ -77,7 +77,7 @@
                                <div class="bubblePar">
                                 <h1 class="mainHeading">Dr. Chris Serafini</h1>
                                 <p>Growing up in a household with five siblings, Chris Serafini, DO, always knew family would play an important role in his life. Born and raised in Erie, Dr. Serafini completed his residency at Saint Vincent. Soon after, he joined Drs. Joseph Deimel and Allison Snyder at Millcreek Family Practice, where he continues to put his patients and their families first.</p>
-                                <div>
+                                <div class="videoSection">
                                     <img src="img/chrisvid.jpg" style="margin-bottom: 10px;" class= "img-responsive">
 
                                       <!-- Button trigger modal -->

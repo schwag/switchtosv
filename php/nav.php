@@ -3,7 +3,7 @@
                     <div class="container logoSection">
                         <header class="row">
                             <div class="col-lg-6 col-sm-6 headercontactInfo">
-                                <p class="switchTop">SwitchToSV.com</p>                               
+                                <p class="switchTop"><a href="http://localhost/switchtosv/">SwitchToSV.com</a></p>                               
                             </div>
                             <div class="col-lg-6 col-sm-6 headercontactInfo">
                                 <p class="alleghenyTop">Allegheny Health Network</p>                               
@@ -23,7 +23,7 @@
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
                               <span class="sr-only">Toggle navigation</span>
                               <span class="glyphicon glyphicon-arrow-down"></span>
-                              MENU
+                              
                             </button>
                         </div>
                         <div class="collapse navbar-collapse" id="collapse">
